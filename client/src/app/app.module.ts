@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './routes/about/about.component';
+import { GalleryComponent } from './routes/gallery/gallery.component';
 import { HomeComponent } from './routes/home/home.component';
 
 @NgModule({
@@ -14,6 +15,7 @@ import { HomeComponent } from './routes/home/home.component';
     AppComponent,
     HomeComponent,
     AboutComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
