@@ -1,3 +1,11 @@
+//
+// [amaze-client]
+//
+// Sanjeev Premi <spremi@ymail.com>
+//
+// Available under terms of the BSD-3-Clause license.
+//
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +14,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass'],
 })
 export class AppComponent {
-  title = 'amaze-client';
 }
