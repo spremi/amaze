@@ -6,6 +6,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LooksModule } from './modules/looks/looks.module';
 import { FooterComponent } from './parts/footer/footer.component';
 import { HeaderComponent } from './parts/header/header.component';
 import { LoginComponent } from './parts/login/login.component';
@@ -38,6 +39,7 @@ import { ShowComponent } from './routes/show/show.component';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    LooksModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
