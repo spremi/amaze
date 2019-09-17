@@ -9,6 +9,8 @@
 import { async, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import { MockFooterComponent } from './parts/footer/footer.component.mock';
+import { MockHeaderComponent } from './parts/header/header.component.mock';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -18,6 +20,8 @@ describe('AppComponent', () => {
       ],
       declarations: [
         AppComponent,
+        MockHeaderComponent,
+        MockFooterComponent,
       ],
     }).compileComponents();
   }));
