@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './parts/footer/footer.component';
 import { HeaderComponent } from './parts/header/header.component';
 import { LoginComponent } from './parts/login/login.component';
+import { LogoutComponent } from './parts/logout/logout.component';
 import { AboutComponent } from './routes/about/about.component';
 import { BookletComponent } from './routes/booklet/booklet.component';
 import { GalleryComponent } from './routes/gallery/gallery.component';
@@ -28,6 +29,7 @@ import { ShowComponent } from './routes/show/show.component';
     HeaderComponent,
     FooterComponent,
     LoginComponent,
+    LogoutComponent,
   ],
   imports: [
     BrowserModule,
