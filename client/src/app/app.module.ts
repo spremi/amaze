@@ -10,6 +10,7 @@ import { AboutComponent } from './routes/about/about.component';
 import { BookletComponent } from './routes/booklet/booklet.component';
 import { GalleryComponent } from './routes/gallery/gallery.component';
 import { HomeComponent } from './routes/home/home.component';
+import { PageComponent } from './routes/page/page.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HomeComponent } from './routes/home/home.component';
     AboutComponent,
     GalleryComponent,
     BookletComponent,
+    PageComponent,
   ],
   imports: [
     BrowserModule,
