@@ -6,6 +6,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './parts/header/header.component';
 import { AboutComponent } from './routes/about/about.component';
 import { BookletComponent } from './routes/booklet/booklet.component';
 import { GalleryComponent } from './routes/gallery/gallery.component';
@@ -22,6 +23,7 @@ import { ShowComponent } from './routes/show/show.component';
     BookletComponent,
     PageComponent,
     ShowComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
