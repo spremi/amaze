@@ -11,6 +11,7 @@ import { BookletComponent } from './routes/booklet/booklet.component';
 import { GalleryComponent } from './routes/gallery/gallery.component';
 import { HomeComponent } from './routes/home/home.component';
 import { PageComponent } from './routes/page/page.component';
+import { ShowComponent } from './routes/show/show.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { PageComponent } from './routes/page/page.component';
     GalleryComponent,
     BookletComponent,
     PageComponent,
+    ShowComponent,
   ],
   imports: [
     BrowserModule,
